@@ -1,4 +1,4 @@
-class portkiller < Formula
+class Portkiller < Formula
   desc "Advanced port process manager"
   homepage "https://github.com/inomanikram/homebrew-portkiller"
   version "1.0.1"
