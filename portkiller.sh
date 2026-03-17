@@ -5,7 +5,7 @@ GREEN="\033[0;32m"
 YELLOW="\033[1;33m"
 BLUE="\033[0;34m"
 NC="\033[0m"
-VERSION="1.0.0"
+VERSION="1.0.2"
 
 print_help() {
 echo -e "${BLUE}portkiller - advanced port process manager (v${VERSION})${NC}
