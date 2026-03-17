@@ -7,7 +7,7 @@ class Portkiller < Formula
   license "MIT"
 
   def install
-    bin.install "killport.sh" => "portkiller"
+    bin.install "portkiller.sh" => "portkiller"
   end
 
   test do
