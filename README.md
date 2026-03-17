@@ -1,6 +1,6 @@
-# PortKill
+# portkiller
 
-`portkill` is an advanced port process manager for macOS and Linux. It quickly finds and kills processes listening on specific ports.
+`portkiller` is an advanced port process manager for macOS and Linux. It quickly finds and kills processes listening on specific ports.
 
 ## Features
 
@@ -11,38 +11,38 @@
 
 ## Installation via Homebrew
 
-To install `portkill` via Homebrew, you will need to add it to a Custom Tap (since it is a personal script).
+To install `portkiller` via Homebrew, you will need to add it to a Custom Tap (since it is a personal script).
 
-Assuming you host this on GitHub at `https://github.com/inomanikram/homebrew-portkill`.
+Assuming you host this on GitHub at `https://github.com/inomanikram/homebrew-portkiller`.
 
 1. **Tap the repository**:
    ```bash
-   brew tap inomanikram/portkill
+   brew tap inomanikram/portkiller
    ```
 2. **Install the package**:
    ```bash
-   brew install portkill
+   brew install portkiller
    ```
 
-> **Note to Developer:** See the included `portkill.rb` file for an example Homebrew formula to use in your tap!
+> **Note to Developer:** See the included `portkiller.rb` file for an example Homebrew formula to use in your tap!
 
 ## Usage
 
 ```bash
 # Kill a single port (e.g., port 8080)
-portkill kill 8080
+portkiller kill 8080
 
 # Kill multiple ports (e.g., 8080, 3000, 5432)
-portkill killm 8080,3000,5432
+portkiller killm 8080,3000,5432
 
 # List all listening ports
-portkill list
+portkiller list
 
 # List self-assigned ports (>1024)
-portkill self
+portkiller self
 
 # Show version
-portkill version
+portkiller version
 ```
 
 ## Contributing
